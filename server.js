@@ -17,9 +17,9 @@ import cloudinary from 'cloudinary';
 
 import errorHandlerMiddleware from './middleware/errorHandlerMiddleware.js';
 import { authenticateUser } from './middleware/authMiddleware.js';
-import jobRouter from './Routes/jobRouter.js';
-import authRouter from './Routes/authRouter.js';
-import userRouter from './Routes/userRouter.js';
+import jobRouter from './routes/jobRouter.js';
+import authRouter from './routes/authRouter.js';
+import userRouter from './routes/userRouter.js';
 
 //! Middleware
 if (process.env.NODE_ENV === 'development') {
